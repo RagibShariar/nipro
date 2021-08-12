@@ -96,7 +96,7 @@ header{
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.slider-content a{
+.btn-custom {
     display: inline-block;
     padding: 15px 30px ;
     background-color: #fff;
@@ -105,10 +105,11 @@ header{
     text-decoration: none;
     transition: .3s;
 }
-.slider-content a:hover{
+.btn-custom:hover{
     letter-spacing: 1px;
+    color: #333333;
 }
-.slider-content a i{
+.btn-custom i{
     padding-left: 20px;
 }
 .prev-custom , .next-custom{
@@ -183,4 +184,85 @@ header{
 .title-p{
     line-height: 30px;
 }
+.service-item{
+    margin-top: 110px;
+    margin-bottom: 70px;
+}
+.single-service{
+    margin-bottom: 30px;
+    padding: 0 17px 40px 17px;
+    border: 1px solid #cccccc;
+    transition: .3s;
+}
+.service-icon{
+    margin: 0 auto;
+    margin-top: -22px;
+    margin-bottom: 40px;
+    width: 69px;
+    background-color: #fff;
+    /* border: 1px solid; */
+}
+.service-icon i{
+    /* margin-top: -40px; */
+    font-size: 60px;
+    color: #8e8e8e;
+    transition: .3s;
+}
+.single-servie-content{}
+.single-servie-content h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+    position: relative;
+}
+.single-servie-content h3::after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    background-color: #cccccc;
+    bottom: -15px;
+    left: 50%;
+    right: 0;
+    transform: translateX(-50%);
+}
+.single-servie-content p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #8e8e8e;
+
+}
+.single-servie-content a{
+    font-size: 16px;
+    color: #8e8e8e;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: .3s;
+}
+.single-servie-content a i{
+    margin-left: 20px;
+}
+.single-service:hover{
+    border-color: #333333;
+}
+.single-service:hover i{
+    color: #333333;
+}
+.single-service:hover a{
+    color: #333333;
+}
 /* service end */
+/* about-us start */
+.about-us-content{
+    padding-left: 70px;
+}
+.about-us-content .btn-custom{
+    border: 1px solid #333333;
+}
+.about-us-content p{
+    line-height: 27px;
+}
+/* about-us end */
